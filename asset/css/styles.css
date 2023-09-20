@@ -297,3 +297,74 @@ a {
   margin-top: 70px;
   padding: 15px 48px;
 }
+
+/* work */
+.work {
+  padding: 100px 0;
+  background: #f6fbff;
+}
+
+.work .list .first {
+  margin-top: -30px;
+  width: 370px;
+  height: 402px;
+  border: 16px solid #2e80ce;
+}
+
+.work .list__info img {
+  margin-top: 43px;
+  margin-left: 42px;
+}
+
+.work h2.title {
+  color: #10375c;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.work p.desc {
+  margin-top: 18px;
+  width: 468px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.work .list {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .list__info {
+  width: 338px;
+  height: 370px;
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+  background: #fff;
+}
+
+.work .list__info h3 {
+  margin-left: 42px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+.work p.sub-desc {
+  margin: 28px 0 18px 42px;
+  width: 254px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.75;
+}
+
+.work .list__info a {
+  margin-left: 42px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-weight: 300;
+}
