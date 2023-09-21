@@ -223,7 +223,6 @@ a {
 /* sevices */
 .services {
   padding: 170px 0;
-  background: #ad909d;
 }
 
 .services h2.title {
@@ -433,4 +432,121 @@ a {
 .method .btn {
   padding: 15px 52px;
   border-radius: 30px;
+}
+
+/* virtual */
+.virtual {
+  padding: 0 0 170px 0;
+}
+
+.virtual h2.title {
+  margin-bottom: 38px;
+  color: #10375c;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+.virtual a.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 70px;
+  width: 205px;
+  height: 60px;
+  border-radius: 30px;
+  background: #2e80ce;
+}
+
+.virtual a.name {
+  margin-left: 60px;
+  margin-top: 12px;
+  color: #10375c;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.virtual p.desc {
+  color: #575f66;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.virtual ul li + li {
+  margin-left: 23px;
+}
+
+.virtual .next__page {
+  justify-content: center;
+  display: flex;
+  margin-top: 38px;
+}
+
+.virtual .square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.virtual a.bigger {
+  margin-left: 18px;
+  background: #2e80ce;
+  border: 1px solid #2e80ce;
+}
+
+/* advertise */
+.advertise {
+  background: #2e80ce;
+  margin-top: 100px;
+}
+
+.advertise h2.title {
+  width: 489px;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.advertise .ad__block {
+  display: flex;
+  position: relative;
+}
+
+.advertise .ad__block .content {
+  flex: 1;
+  margin: 0 auto 0 514px;
+  padding: 76px 0;
+}
+
+.advertise .img__ad {
+  position: absolute;
+  bottom: 0;
+  left: 70px;
+}
+
+.advertise p.desc {
+  margin-top: 18px;
+  width: 586px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1.67;
+}
+
+.advertise .app {
+  margin-top: 38px;
+}
+
+.advertise .app a + a {
+  margin-left: 28px;
 }
